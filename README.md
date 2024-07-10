@@ -8,3 +8,8 @@ que sean apropiadas a los temas de aprendizaje de la unidad actual, hasta ahora 
   <li>7° Básico</li>
   <li>8° Básico</li>
 </lu>
+<h2>Librerias necesarias:</h2>
+<lu>
+  <li>Pyqt5</li>
+  <li>Openai 0.28.0</li>
+</lu>
