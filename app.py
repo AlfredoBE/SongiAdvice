@@ -463,13 +463,10 @@ class RecomendacionesCanciones(QWidget):
         conocimientos = self.desplegable3.currentText()
         vocabulario = self.desplegable4.currentText()
         pronunciacion = self.desplegable5.currentText()
-
-        print("Pronunciacion: "+pronunciacion)
         prompt = (f"Dame solo una lista precisa con máximo 5 recomendaciones de canciones en inglés para un curso de {curso} que está "
                   f"viendo la unidad de {unidad}. Los conocimientos clave son {conocimientos}, "
-                  f"el vocabulario incluye {vocabulario} y se busca mejorar la pronunciación en la letra {pronunciacion} incluida en las palabras en ingles. "
-                  "En el contexto de la educación chilena para estudiantes de entre 8 y 13 años de edad, ademas ten en consideracion que no deben incluir nombres y/o letras explicitas o que puedan resultar ofensivas "
-                  "y aprovecha de darme un dato curioso sobre risk of rain 2")
+                  f"el vocabulario incluye {vocabulario} y se busca mejorar la pronunciación en la letra '{pronunciacion} ' incluida en palabras en ingles, "
+                  f"todo esto en el contexto de la educación chilena para estudiantes de entre 8 y 13 años de edad, ademas ten en consideracion que no deben incluir nombres y/o letras explicitas o que puedan resultar ofensivas.")
         print(prompt)
         try:
             response = openai.ChatCompletion.create(
