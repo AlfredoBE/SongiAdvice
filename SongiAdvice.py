@@ -4,7 +4,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QTextEdit, QVBoxLayout, QComboBox,  QHBoxLayout
 import openai
-openai.api_key = 'sk-proj-oA7ftMdV2QImWHFvLaM6T3BlbkFJX6wuAaGewH4O8ZK1805z'
+openai.api_key = 'Tu-Key-Va-Aqui'
 
 class RecomendacionesCanciones(QWidget):
     def __init__(self):
