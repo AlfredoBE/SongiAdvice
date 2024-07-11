@@ -94,7 +94,7 @@ def obtener_palabras_clave(año, unidad):
         if unidad == '1':
             return (palabras_clave_5_1, numeros)
         elif unidad == '2':
-            return (palabras_clave_5_2, [])
+            return (palabras_clave_5_2, numeros)
         elif unidad == '3':
             return (palabras_clave_5_3, numeros)
         elif unidad == '4':
@@ -112,23 +112,23 @@ def obtener_palabras_clave(año, unidad):
     
     elif año == '7':
         if unidad == '1':
-            return (palabras_clave_7_1, [])
+            return (palabras_clave_7_1, numeros)
         elif unidad == '2':
-            return (palabras_clave_7_2, [])
+            return (palabras_clave_7_2, numeros)
         elif unidad == '3':
-            return (palabras_clave_7_3, [])
+            return (palabras_clave_7_3, numeros)
         elif unidad == '4':
-            return (palabras_clave_7_4, [])
+            return (palabras_clave_7_4, numeros)
     
     elif año == '8':
         if unidad == '1':
-            return (palabras_clave_8_1, [])
+            return (palabras_clave_8_1, numeros)
         elif unidad == '2':
-            return (palabras_clave_8_2, [])
+            return (palabras_clave_8_2, numeros)
         elif unidad == '3':
-            return (palabras_clave_8_3, [])
+            return (palabras_clave_8_3, numeros)
         elif unidad == '4':
-            return (palabras_clave_8_4, [])
+            return (palabras_clave_8_4, numeros)
     
     return ([], [])
 
